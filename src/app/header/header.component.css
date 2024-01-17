@@ -1,6 +1,26 @@
 .header-body{
   background: #0e2f63;
+  position: fixed;
   height: 50px;
+  width: 100%;
+  z-index: 100;
+}
+
+div.header-title{
+  display: inline-block;
+  height: inherit;
+  align-items: center;
+}
+
+a.header-title{
+  display: flex;
+  height: inherit;
+  align-items: center;
+  margin-left: 0.75em;
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  cursor:pointer;
 }
 
 .header-text{
