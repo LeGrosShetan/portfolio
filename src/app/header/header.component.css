@@ -4,6 +4,7 @@
   top: 0;
   width: 100%;
   z-index: 100;
+  overflow: hidden;
 }
 
 div.header-title{
@@ -31,7 +32,6 @@ a.header-title{
 
 nav{
   display: inline-block;
-  overflow: hidden;
   height: inherit;
   float: right;
 }
