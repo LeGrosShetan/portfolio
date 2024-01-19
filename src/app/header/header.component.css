@@ -17,7 +17,6 @@ a.header-title{
   height: inherit;
   align-items: center;
   margin-left: 0.75em;
-  color: white;
   font-size: 25px;
   text-decoration: none;
   cursor:pointer;
@@ -25,7 +24,6 @@ a.header-title{
 
 .header-text{
   font-size: 20px;
-  color: white;
   margin-right:1em;
   text-decoration: none;
   cursor:pointer;

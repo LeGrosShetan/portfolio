@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+*:not(app-header *) {
+  background-color:#1f1d1d;
+}
+
+.text-main-color{
+  color:white !important;
+}
