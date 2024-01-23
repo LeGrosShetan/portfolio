@@ -23,3 +23,8 @@
   margin-left: 50px;
   width: 60%;
 }
+
+.caption-text{
+  font-style: italic;
+  text-align: center;
+}
