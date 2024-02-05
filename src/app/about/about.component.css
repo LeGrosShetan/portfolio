@@ -1,0 +1,44 @@
+.img-div{
+  margin-top: 15px;
+}
+
+.downloadButton{
+  background-color: #1f64d1;
+  border-color: #0e2f63;
+  margin-top: 10px;
+}
+
+.downloadButton:hover{
+  background-color: #0e2f63;
+}
+
+.text-elements{
+  > div{
+    margin-top: 50px;
+  }
+  > div:last-child{
+    margin-bottom: 75px;
+  }
+}
+
+.about-me{
+  display: inline-block;
+  max-width: 90%;
+}
+
+.about-me-text{
+  margin-top: 10px;
+}
+
+.formation-items{
+  display: inline-block;
+  margin-top: 10px;
+
+  div{
+    display: inline-grid;
+  }
+
+  :not(:first-child) {
+    margin-left: 20px;
+  }
+}
