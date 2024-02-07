@@ -11,7 +11,8 @@ export class AboutComponent {
   getCVPDF(){
 
     var fileURL = "../assets/CV_Maxime_Poiret.pdf";
-    window.open(fileURL);
+    // Décommenter si ouverture du fichier sur un nouvel onglet
+    // window.open(fileURL);
     var a         = document.createElement('a');
     a.href        = fileURL;
     a.target      = '_blank';
