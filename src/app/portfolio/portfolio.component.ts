@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './portfolio.component.css'
 })
 export class PortfolioComponent {
-
+  redirectTo(url : string){
+    window.open(url);
+  }
 }

@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 export class AboutComponent {
   getCVPDF(){
 
-    var fileURL = "../assets/CV_Maxime_Poiret.pdf";
+    var fileURL = "assets/CV_Maxime_Poiret.pdf";
     // Décommenter si ouverture du fichier sur un nouvel onglet
     // window.open(fileURL);
     var a         = document.createElement('a');
